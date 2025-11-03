@@ -610,6 +610,11 @@ Chức năng “Emotion Trend Over Time” — theo dõi cảm xúc người dù
 
 
 
+
+
+
+
+
 # 🧱 Nguyên tắc Chatbot phải tuân thủ (Phiên bản mở rộng – có phản hồi ngoài phạm vi)
 *🎯 Mục tiêu
 Chatbot Emotion AI Analyzer là trợ lý AI thân thiện, có khả năng:

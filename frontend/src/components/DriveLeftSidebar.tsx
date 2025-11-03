@@ -1,18 +1,20 @@
 import { useMemo, useState } from "react";
-import "../types/drive-sidebar.css";
 import {
   Plus, Home as HomeIcon, AlertCircle, Trash2, Cloud,
   ChevronRight, ChevronDown, Settings, HelpCircle,
   Upload, Video, Music, FileText, Mic, Image, Layers, Film,
   ShieldAlert
 } from "lucide-react";
+import "../types/drive-sidebar.css";
 import SettingsButton from "./SettingsButton";
 import HelpButton from "./HelpButton";
 
 type ItemKey =
   | "home" | "dashboard" | "new-analysis"
-  | "text-sentiment" | "audio-sentiment" | "vision-sentiment" | "fused-model" | "max-fusion"
-  | "review-queue" | "trash" | "storage" | "storage-upgrade";
+  | "text-sentiment" | "audio-sentiment" 
+  | "vision-sentiment" | "fused-model" 
+  | "max-fusion" | "review-queue" | "trash" 
+  | "storage" | "storage-upgrade";
 
 type SidebarItem = {
   key: ItemKey;
