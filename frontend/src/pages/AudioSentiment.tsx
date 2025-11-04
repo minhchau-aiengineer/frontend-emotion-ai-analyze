@@ -1,6 +1,6 @@
 // src/pages/AudioSentiment.tsx
 
-import AnimatedHeader from "../utils/AnimatedHeader ";
+import AnimatedHeader from "../utils/AnimatedHeader";
 import React, { useEffect, useMemo, useRef, useState } from "react";
 
 /* =============== tiny utils =============== */

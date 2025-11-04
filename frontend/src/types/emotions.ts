@@ -7,6 +7,15 @@ export type EmotionType =
   | 'fearful'
   | 'disgusted';
 
+export type EmotionLabel =
+  | "happy"
+  | "sad"
+  | "angry"
+  | "surprised"
+  | "neutral"
+  | "fearful"
+  | "disgusted";
+
 export type DetectionType = 'facial' | 'vocal';
 
 export interface EmotionResult {

@@ -6,8 +6,15 @@
     "jsx": "react-jsx",
     "strict": true,
     "moduleResolution": "Bundler",
-    "baseUrl": "./src",
-    "paths": { "@/*": ["*"] }
+    "baseUrl": "src",
+    "paths": {
+      "@/*": ["*"],
+      "@features/*": ["features/*"],
+      "@components/*": ["components/*"],
+      "@utils/*": ["utils/*"],
+      "@hooks/*": ["hooks/*"]
+    },
+    "types": ["vite/client"]
   },
   "include": ["src"]
 }
