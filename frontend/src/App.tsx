@@ -380,82 +380,6 @@
 
 
 
-
-// import React, { Suspense } from "react";
-// import { BrowserRouter as Router, Routes, Route, useNavigate } from "react-router-dom";
-// import { routes } from "./app/routes";
-// import DriveLeftSidebar from "./components/DriveLeftSidebar";
-// import ChatWidget from "./components/ChatWidget";
-// import FooterPape from "./components/FooterPape";
-
-// function Layout() {
-//   const navigate = useNavigate();
-
-//   return (
-//     <div className="flex h-screen w-screen bg-slate-900 text-white">
-//       {/* Sidebar bên trái */}
-//       <DriveLeftSidebar
-//         onChange={(key) => {
-//           switch (key) {
-            
-//             case "home":
-//               navigate("/");
-//               break;
-//             case "dashboard":
-//               navigate("/dashboard");
-//               break;
-//             case "audio-sentiment":
-//               navigate("/audio");
-//               break;
-//             case "max-fusion":
-//               navigate("/max-fusion");
-//               break;
-//             case "text-sentiment":
-//               navigate("/text-sentiment");
-//               break;
-//             case "vision-sentiment":
-//               navigate("/vision-sentiment");
-//               break;
-//             case "fused-model":
-//               navigate("/fused-model");
-//               break;
-//             case "storage":
-//               navigate("/storage");
-//               break;
-//             default:
-//               console.log("Chưa gán route:", key);
-//           }
-//         }}
-//       />
-
-//       {/* Phần hiển thị nội dung page */}
-//       <main className="flex-1 overflow-y-auto p-6">
-//         <Suspense fallback={<div>Đang tải...</div>}>
-//           <Routes>
-//             {routes.map(({ path, element: Element }) => (
-//               <Route key={path} path={path} element={<Element />} />
-//             ))}
-//           </Routes>
-//         </Suspense>
-//         <FooterPape />
-//       </main>
-//       <ChatWidget />
-//     </div>
-//   );
-// }
-
-// export default function App() {
-//   return (
-//     <Router>
-//       <Layout />
-//     </Router>
-//   );
-// }
-
-
-
-
-
 import React, { Suspense } from "react";
 import {
   BrowserRouter as Router,
@@ -487,6 +411,8 @@ function useActiveSidebarKey() {
       return "max-fusion";    
     case "/review-queue":
       return "review-queue";
+    case "/log":
+      return "log";
     case "/trash":
       return "trash";  
     default:
@@ -526,6 +452,9 @@ function Layout() {
               break;
             case "review-queue":
               navigate("/review-queue");
+              break;
+            case "log":
+              navigate("/log");
               break;
             case "trash":
               navigate("/trash");

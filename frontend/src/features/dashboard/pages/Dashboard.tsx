@@ -8,7 +8,7 @@ import { DetectionTable } from "../components/dashboard/DetectionTable";
 import { DetectionDetailModal } from "../components/dashboard/DetectionDetailModal";
 import { DashboardSkeleton } from "../components/dashboard/Skeletons";
 import { Analysis, AnalysisSummary, EmotionResult } from "../../../types/emotions";
-import { DashboardStyles } from "../styles/dashboardStyles";
+import { DashboardStyles } from "../styles/DashboardStyles";
 
 export default function Dashboard() {
   const [mockData, setMockData] = useState<{

@@ -9,10 +9,10 @@ export const routes = [
   { path: '/audio-sentiment',       element: lazy(() => import('../features/audio-sentiment/pages/AudioSentimentPage')) },
   { path: '/vision-sentiment',      element: lazy(() => import('../features/vision-sentiment/pages/VisionSentimentPage')) },
   { path: '/max-fusion',            element: lazy(() => import('../features/max-fusion-video/pages/MaxFusionPage')) },
+  { path: '/log',                   element: lazy(() => import('../features/log/pages/LogPage')) },
 
 
 
-  { path: 'dashboard',              element: lazy(() => import('../features/dashboard/pages/Dashboard')) },
   { path: 'text-sentiment',         element: lazy(() => import('../pages/Dashboard')) },
   { path: '/audio',                 element: lazy(() => import('../features/audio-sentiment/pages/AudioSentimentPage')) },
   { path: '/review-queue',          element: lazy(() => import('../pages/ReviewQueue')) },
