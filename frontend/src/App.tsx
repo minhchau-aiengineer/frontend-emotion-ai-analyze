@@ -524,7 +524,7 @@ function Layout() {
             case "max-fusion":
               navigate("/max-fusion");
               break;
-            case "/review-queue":
+            case "review-queue":
               navigate("/review-queue");
               break;
             case "trash":
