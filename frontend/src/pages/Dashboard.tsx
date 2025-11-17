@@ -3,6 +3,9 @@ import { EmotionChart } from "../components/EmotionChart";
 import { EmotionTimeline } from "../components/EmotionTimeline";
 import { EmotionSummaryCard } from "../components/EmotionSummaryCard";
 import { Analysis, AnalysisSummary, EmotionResult } from "../types/emotions";
+import { trashService, TrashItem } from "../features/trash/services/trashService";
+import { getRealAnalyticsData, deleteUploadAnalysis } from "../features/dashboard/services/analyticsService";
+import { Trash2, Undo2 } from "lucide-react";
 
 /* ---------- Mock Data ---------- */
 function generateMockData(): {
@@ -76,10 +79,26 @@ export default function Dashboard() {
 
   const [chartType, setChartType] = useState<"pie" | "bar">("pie");
   const [selected, setSelected] = useState<EmotionResult | null>(null);
+  const [trashItems, setTrashItems] = useState<TrashItem[]>([]);
+  const [showTrashSection, setShowTrashSection] = useState(true);
 
   useEffect(() => {
     const t = setTimeout(() => setMockData(generateMockData()), 300);
     return () => clearTimeout(t);
+  }, []);
+
+  // Load trash items
+  useEffect(() => {
+    const loadTrashItems = () => {
+      const items = trashService.getTrashItems();
+      setTrashItems(items.slice(0, 5)); // Show only recent 5 items
+    };
+
+    loadTrashItems();
+
+    // Poll for updates every 2 seconds
+    const interval = setInterval(loadTrashItems, 2000);
+    return () => clearInterval(interval);
   }, []);
 
   // ⚠️ GỌI HOOKS KHÔNG ĐIỀU KIỆN
@@ -99,6 +118,58 @@ export default function Dashboard() {
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
   }, []);
+
+  // Delete detection function
+  const handleDeleteDetection = (id: string) => {
+    if (!mockData) return;
+
+    // Find the item to delete
+    const itemToDelete = mockData.results.find(r => r.id === id);
+    if (!itemToDelete) return;
+
+    // Add to trash
+    trashService.addToTrash({
+      originalId: id,
+      type: 'upload', // Default type for mock data
+      name: `Emotion Detection - ${itemToDelete.emotion_type}`,
+      content: itemToDelete,
+      deletedFrom: 'Main Dashboard'
+    });
+
+    // Remove from current data
+    const updatedResults = mockData.results.filter(r => r.id !== id);
+    setMockData({
+      ...mockData,
+      results: updatedResults
+    });
+
+    // Close modal if deleted item was selected
+    if (selected?.id === id) {
+      setSelected(null);
+    }
+
+    // Refresh trash items
+    setTimeout(() => {
+      const items = trashService.getTrashItems();
+      setTrashItems(items.slice(0, 5));
+    }, 100);
+  };
+
+  // Restore item from trash
+  const handleRestoreItem = (trashId: string) => {
+    const restoredItem = trashService.restoreItem(trashId);
+    if (restoredItem && mockData) {
+      // Add back to results
+      setMockData({
+        ...mockData,
+        results: [...mockData.results, restoredItem.content]
+      });
+
+      // Refresh trash items
+      const items = trashService.getTrashItems();
+      setTrashItems(items.slice(0, 5));
+    }
+  };
 
   // Sau khi đã gọi hooks ở trên, giờ mới return sớm an toàn
   if (!mockData) {
@@ -238,26 +309,146 @@ export default function Dashboard() {
                 <th className="text-left py-3 px-4">Emotion</th>
                 <th className="text-left py-3 px-4">Confidence</th>
                 <th className="text-left py-3 px-4">Type</th>
+                <th className="text-left py-3 px-4">Actions</th>
               </tr>
             </thead>
             <tbody>
               {results.slice(0, 10).map((r) => (
                 <tr
                   key={r.id}
-                  className="border-b border-white/10 hover:bg-white/10 transition cursor-pointer"
-                  onClick={() => setSelected(r)}
-                  title="Xem chi tiết"
+                  className="border-b border-white/10 hover:bg-white/10 transition"
                 >
-                  <td className="py-3 px-4">{r.timestamp.toFixed(1)}s</td>
-                  <td className="py-3 px-4 capitalize">{r.emotion_type}</td>
-                  <td className="py-3 px-4">{(r.confidence * 100).toFixed(1)}%</td>
-                  <td className="py-3 px-4 capitalize">{r.detection_type}</td>
+                  <td
+                    className="py-3 px-4 cursor-pointer"
+                    onClick={() => setSelected(r)}
+                    title="Xem chi tiết"
+                  >
+                    {r.timestamp.toFixed(1)}s
+                  </td>
+                  <td
+                    className="py-3 px-4 capitalize cursor-pointer"
+                    onClick={() => setSelected(r)}
+                    title="Xem chi tiết"
+                  >
+                    {r.emotion_type}
+                  </td>
+                  <td
+                    className="py-3 px-4 cursor-pointer"
+                    onClick={() => setSelected(r)}
+                    title="Xem chi tiết"
+                  >
+                    {(r.confidence * 100).toFixed(1)}%
+                  </td>
+                  <td
+                    className="py-3 px-4 capitalize cursor-pointer"
+                    onClick={() => setSelected(r)}
+                    title="Xem chi tiết"
+                  >
+                    {r.detection_type}
+                  </td>
+                  <td className="py-3 px-4">
+                    <button
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        handleDeleteDetection(r.id);
+                      }}
+                      className="text-red-400 hover:text-red-300 transition-colors p-1 rounded hover:bg-red-500/10"
+                      title="Xóa detection"
+                    >
+                      <Trash2 className="h-4 w-4" />
+                    </button>
+                  </td>
                 </tr>
               ))}
             </tbody>
           </table>
         </div>
       </div>
+
+      {/* ===== Recently Deleted Section ===== */}
+      {trashItems.length > 0 && showTrashSection && (
+        <div className="rounded-2xl p-6 border border-red-500/20 bg-red-500/5 hover:bg-red-500/10 transition">
+          <div className="flex items-center justify-between mb-4">
+            <div className="flex items-center gap-3">
+              <Trash2 className="h-5 w-5 text-red-400" />
+              <h3 className="text-xl font-bold text-red-400">Recently Deleted</h3>
+              <span className="text-sm text-gray-400">({trashItems.length} items)</span>
+            </div>
+            <button
+              onClick={() => setShowTrashSection(false)}
+              className="text-gray-400 hover:text-gray-300 text-sm"
+            >
+              Hide
+            </button>
+          </div>
+
+          <div className="space-y-3">
+            {trashItems.map((item) => (
+              <div
+                key={item.id}
+                className="flex items-center justify-between p-3 rounded-lg bg-white/5 border border-white/10"
+              >
+                <div className="flex items-center gap-3">
+                  <div className="w-8 h-8 rounded-lg bg-red-500/20 flex items-center justify-center">
+                    <Trash2 className="h-4 w-4 text-red-400" />
+                  </div>
+                  <div>
+                    <div className="font-medium text-sm">{item.name}</div>
+                    <div className="text-xs text-gray-400">
+                      Deleted {new Date(item.deletedAt).toLocaleString('vi-VN')} from {item.deletedFrom}
+                    </div>
+                  </div>
+                </div>
+
+                <div className="flex items-center gap-2">
+                  <button
+                    onClick={() => handleRestoreItem(item.id)}
+                    className="flex items-center gap-1 px-3 py-1.5 text-xs rounded-lg bg-blue-600 hover:bg-blue-700 text-white transition-colors"
+                  >
+                    <Undo2 className="h-3 w-3" />
+                    Restore
+                  </button>
+                  <button
+                    onClick={() => {
+                      trashService.permanentlyDelete(item.id);
+                      const items = trashService.getTrashItems();
+                      setTrashItems(items.slice(0, 5));
+                    }}
+                    className="text-red-400 hover:text-red-300 p-1 rounded transition-colors"
+                    title="Delete permanently"
+                  >
+                    <Trash2 className="h-3 w-3" />
+                  </button>
+                </div>
+              </div>
+            ))}
+          </div>
+
+          {trashItems.length >= 5 && (
+            <div className="mt-4 pt-4 border-t border-white/10">
+              <a
+                href="/trash"
+                className="text-sm text-blue-400 hover:text-blue-300 transition-colors"
+              >
+                View all deleted items →
+              </a>
+            </div>
+          )}
+        </div>
+      )}
+
+      {/* Show trash section button if hidden */}
+      {!showTrashSection && trashItems.length > 0 && (
+        <div className="text-center">
+          <button
+            onClick={() => setShowTrashSection(true)}
+            className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-red-500/10 text-red-400 hover:bg-red-500/20 transition-colors"
+          >
+            <Trash2 className="h-4 w-4" />
+            Show Recently Deleted ({trashItems.length})
+          </button>
+        </div>
+      )}
 
       {/* ===== Modal chi tiết ===== */}
       {selected && (

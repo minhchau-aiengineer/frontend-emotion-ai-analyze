@@ -27,11 +27,21 @@ export const useFaceDetection = () => {
     setActiveId(null);
   };
 
+   // allow external code to set boxes (e.g. from backend face_location)
+  const setBoxesExternal = (b: Box[]) => {
+    console.log("useFaceDetection: setBoxesExternal called with:", b);
+    setBoxes(b);
+    const newActiveId = b[0]?.id ?? null;
+    console.log("useFaceDetection: Setting activeId to:", newActiveId);
+    setActiveId(newActiveId);
+  };
+
   return {
     boxes,
     activeId,
     setActiveId,
     runFaceDetection,
     clearDetection,
+    setBoxes: setBoxesExternal,
   };
 };

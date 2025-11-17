@@ -155,7 +155,7 @@ const AudioResultsTable: React.FC<Props> = ({
                     <td className="px-6 py-2 text-right">
                       <button
                         onClick={() => onDeleteRow(r.id)}
-                        className="text-rose-400 hover:text-rose-300 text-sm"
+                        className="text-rose-400 hover:text-rose-300 text-sm mr-7"
                       >
                         Delete
                       </button>

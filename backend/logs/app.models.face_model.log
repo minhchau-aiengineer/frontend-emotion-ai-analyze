@@ -1,0 +1,1084 @@
+2025-11-06 08:54:09,619 - app.models.face_model - INFO - Face model loaded successfully
+2025-11-06 08:54:09,680 - app.models.face_model - INFO - Face cascade classifier loaded successfully
+2025-11-06 08:57:17,835 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 08:57:17,987 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 08:57:18,480 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 08:57:18,584 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 08:57:18,708 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 08:57:18,869 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 08:57:19,012 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 08:57:19,140 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 08:57:19,263 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 08:57:19,376 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 08:57:19,502 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 08:57:19,612 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 08:57:19,749 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 08:57:19,897 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 08:57:20,098 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 08:57:20,589 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 08:57:20,695 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 08:57:20,806 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 08:57:21,348 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 08:57:21,474 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 08:57:21,596 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 08:57:21,709 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 08:57:21,834 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 08:57:22,083 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 08:57:22,225 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 08:57:22,369 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 08:57:22,501 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:16:17,102 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:16:17,218 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:16:17,325 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:16:17,424 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:16:17,524 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:16:17,622 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:16:17,718 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:16:17,818 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:16:17,950 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:16:24,480 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:16:37,700 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:16:38,840 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:16:39,968 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:16:42,408 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:16:43,525 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:16:44,649 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:16:45,765 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:16:46,876 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:16:47,986 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:16:49,101 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:16:52,846 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:16:58,033 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:17:01,751 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:17:05,511 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:17:06,642 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:17:09,042 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:17:10,167 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:17:11,276 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:17:17,624 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:17:18,772 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:17:19,903 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:17:24,911 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:17:26,039 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:17:28,464 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:17:29,595 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:17:33,348 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:17:34,496 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:17:35,617 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:17:37,052 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:17:40,716 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:17:41,842 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:17:42,972 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:17:50,586 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:17:51,719 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:17:52,839 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:17:55,312 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:17:56,435 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:18:00,196 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:18:27,936 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:19:04,011 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:19:04,128 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:19:04,194 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:19:04,261 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:19:04,376 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:19:04,559 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:19:04,648 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:19:04,773 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:19:04,847 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:19:04,915 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:19:05,067 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:19:05,141 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:19:05,213 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:19:05,332 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:19:05,405 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:19:05,594 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:19:05,674 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:19:05,802 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:19:05,880 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:19:06,060 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:19:06,136 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:19:06,260 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:19:06,335 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:19:06,462 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:19:06,664 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:19:06,745 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:19:06,872 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:19:06,984 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:19:07,149 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:19:07,276 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:19:07,431 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:19:07,562 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:19:07,775 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:19:07,906 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:19:08,094 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:19:08,222 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:19:08,378 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:19:08,510 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:19:08,672 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:19:08,892 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:19:09,022 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:19:09,199 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:19:09,332 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:19:09,501 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:19:09,629 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:19:09,784 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:19:10,092 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:19:10,224 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:19:10,396 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:19:10,532 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:19:10,701 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:19:10,832 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:19:11,093 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:19:11,222 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:19:11,390 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:19:21,180 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:19:21,315 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:19:21,436 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:19:21,667 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:19:21,796 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:19:21,934 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:19:22,102 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:19:22,232 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:19:26,128 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:19:38,776 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:25:02,923 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:25:03,019 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:25:03,113 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:25:05,129 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:25:05,264 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:25:05,362 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:30:38,749 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:30:38,837 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:30:38,949 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:30:39,045 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:30:52,866 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:30:52,970 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:30:53,072 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:30:53,179 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:30:53,276 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:30:54,586 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:30:54,694 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:30:54,829 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:30:55,228 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:30:55,322 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:30:55,423 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:30:55,514 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:30:55,621 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:30:55,732 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:30:55,863 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:30:56,223 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:30:56,309 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:30:56,399 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:30:56,490 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:30:56,604 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:30:56,712 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:30:56,822 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:30:56,940 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:30:57,061 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:30:57,168 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:30:58,961 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:30:59,910 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:31:00,042 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:31:00,195 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:31:00,327 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:31:00,415 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:31:00,515 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:31:00,613 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:31:00,709 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:31:00,816 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:39:24,278 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:39:24,597 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:39:35,180 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:39:35,556 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:39:35,666 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:46:24,805 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:46:24,923 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:46:25,036 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:46:25,144 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:46:25,248 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:46:25,353 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:46:25,497 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:52:29,560 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:52:29,621 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:52:29,663 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:52:29,707 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:52:29,759 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:52:29,808 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:52:29,877 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:52:29,924 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:52:29,981 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:52:30,021 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:52:30,056 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:52:30,105 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:52:30,140 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:52:30,202 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:52:30,309 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:52:30,360 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:52:30,409 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:52:30,466 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:52:30,515 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:52:30,586 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:52:30,634 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:52:30,703 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:52:30,745 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:52:30,807 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:52:30,846 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:52:30,906 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:52:30,947 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:52:31,003 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:52:31,040 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:52:31,094 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:52:31,133 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:52:31,183 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:52:31,226 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:52:31,287 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:52:31,328 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:52:31,391 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:52:31,446 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:52:31,516 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:52:31,570 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:52:31,649 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:52:31,698 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:52:31,753 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:52:31,794 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 09:52:31,866 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 11:20:24,863 - app.models.face_model - INFO - Face model loaded successfully
+2025-11-06 11:20:24,908 - app.models.face_model - INFO - Face cascade classifier loaded successfully
+2025-11-06 11:20:54,325 - app.models.face_model - INFO - Face model loaded successfully
+2025-11-06 11:20:54,355 - app.models.face_model - INFO - Face cascade classifier loaded successfully
+2025-11-06 14:29:28,193 - app.models.face_model - INFO - Face model loaded successfully
+2025-11-06 14:29:28,234 - app.models.face_model - INFO - Face cascade classifier loaded successfully
+2025-11-06 14:30:03,872 - app.models.face_model - INFO - Face model loaded successfully
+2025-11-06 14:30:03,910 - app.models.face_model - INFO - Face cascade classifier loaded successfully
+2025-11-06 14:30:25,757 - app.models.face_model - INFO - Face model loaded successfully
+2025-11-06 14:30:25,838 - app.models.face_model - INFO - Face cascade classifier loaded successfully
+2025-11-06 14:31:01,341 - app.models.face_model - INFO - Face model loaded successfully
+2025-11-06 14:31:01,381 - app.models.face_model - INFO - Face cascade classifier loaded successfully
+2025-11-06 14:33:49,059 - app.models.face_model - INFO - Face model loaded successfully
+2025-11-06 14:33:49,092 - app.models.face_model - INFO - Face cascade classifier loaded successfully
+2025-11-06 14:34:11,354 - app.models.face_model - INFO - Face model loaded successfully
+2025-11-06 14:34:11,442 - app.models.face_model - INFO - Face cascade classifier loaded successfully
+2025-11-06 14:38:53,533 - app.models.face_model - INFO - Face model loaded successfully
+2025-11-06 14:38:53,566 - app.models.face_model - INFO - Face cascade classifier loaded successfully
+2025-11-06 14:39:45,392 - app.models.face_model - INFO - Face model loaded successfully
+2025-11-06 14:39:45,432 - app.models.face_model - INFO - Face cascade classifier loaded successfully
+2025-11-06 14:42:35,277 - app.models.face_model - INFO - Face model loaded successfully
+2025-11-06 14:42:35,356 - app.models.face_model - INFO - Face cascade classifier loaded successfully
+2025-11-06 14:43:21,429 - app.models.face_model - INFO - Face model loaded successfully
+2025-11-06 14:43:21,457 - app.models.face_model - INFO - Face cascade classifier loaded successfully
+2025-11-06 14:45:30,165 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 14:45:30,924 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 14:54:16,800 - app.models.face_model - INFO - Face model loaded successfully
+2025-11-06 14:54:16,889 - app.models.face_model - INFO - Face cascade classifier loaded successfully
+2025-11-06 14:54:29,936 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 14:54:53,269 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 14:55:00,523 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 14:55:01,649 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 14:55:55,538 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:17:07,398 - app.models.face_model - INFO - Face model loaded successfully
+2025-11-06 15:17:07,415 - app.models.face_model - INFO - Face cascade classifier loaded successfully
+2025-11-06 15:26:58,971 - app.models.face_model - INFO - Face model loaded successfully
+2025-11-06 15:26:58,996 - app.models.face_model - INFO - Face cascade classifier loaded successfully
+2025-11-06 15:27:18,798 - app.models.face_model - INFO - Face model loaded successfully
+2025-11-06 15:27:18,819 - app.models.face_model - INFO - Face cascade classifier loaded successfully
+2025-11-06 15:27:33,904 - app.models.face_model - INFO - Face model loaded successfully
+2025-11-06 15:27:33,923 - app.models.face_model - INFO - Face cascade classifier loaded successfully
+2025-11-06 15:28:01,546 - app.models.face_model - INFO - Face model loaded successfully
+2025-11-06 15:28:01,563 - app.models.face_model - INFO - Face cascade classifier loaded successfully
+2025-11-06 15:42:06,877 - app.models.face_model - INFO - Face model loaded successfully
+2025-11-06 15:42:06,902 - app.models.face_model - INFO - Face cascade classifier loaded successfully
+2025-11-06 15:42:06,930 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:07,313 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:07,381 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:07,441 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:07,503 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:07,572 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:07,653 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:07,731 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:07,794 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:07,864 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:07,932 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:08,003 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:08,081 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:08,147 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:08,218 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:08,286 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:08,355 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:08,425 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:08,499 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:08,580 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:08,662 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:08,743 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:08,848 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:08,942 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:09,044 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:09,376 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:09,485 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:09,597 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:09,718 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:09,817 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:09,936 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:10,047 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:10,171 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:10,274 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:10,385 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:10,476 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:10,589 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:10,713 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:10,835 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:10,953 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:11,072 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:11,178 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:11,284 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:11,663 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:11,776 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:12,200 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:12,324 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:12,432 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:12,569 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:12,695 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:12,819 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:12,932 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:13,065 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:13,198 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:13,321 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:13,455 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:13,548 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:13,625 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:13,767 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:13,892 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:14,006 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:14,149 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:14,266 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:14,411 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:14,513 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:14,600 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:14,710 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:14,833 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:14,976 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:15,087 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:15,213 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:15,332 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:15,470 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:15,582 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:15,686 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:15,763 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:15,898 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:16,028 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:16,173 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:16,298 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:16,448 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:16,555 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:16,660 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:16,758 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:16,845 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:16,991 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:17,133 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:17,299 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:17,439 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:17,569 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:17,643 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:17,738 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:17,831 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:17,927 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:18,075 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:18,223 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:18,372 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:18,513 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:18,640 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:19,891 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:20,061 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:20,211 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:20,427 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:20,615 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:20,778 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:20,872 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:20,969 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:21,078 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:21,238 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:21,382 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:21,520 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:21,654 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:21,776 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:21,883 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:21,985 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:22,081 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:22,279 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:22,447 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:22,600 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:22,756 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:42:22,880 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:43:00,460 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:43:53,138 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:43:53,179 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:43:53,228 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:43:53,270 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:43:53,319 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:43:53,368 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:43:53,407 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:43:53,453 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:43:53,496 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:43:53,545 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:43:53,586 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:43:53,637 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:43:53,683 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:43:53,734 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:43:53,780 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:43:53,835 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:43:53,884 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:43:53,930 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:43:53,976 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:43:54,024 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:43:54,091 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:43:54,147 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:43:54,194 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:43:54,235 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:43:54,290 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:43:54,332 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:43:54,389 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:43:54,436 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:43:54,487 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:43:54,528 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:43:54,586 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:43:54,626 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:43:54,674 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:43:54,731 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:43:54,780 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:43:54,829 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:43:54,875 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:43:54,926 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:43:54,975 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:43:55,022 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:43:55,068 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:43:55,123 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:43:55,171 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:43:55,228 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:43:55,293 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:43:55,353 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:43:55,409 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:43:55,467 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:43:55,521 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:43:55,570 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:43:55,619 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:43:55,668 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:43:55,726 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:43:55,774 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:43:55,820 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:43:55,888 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:43:55,943 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:43:55,999 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:43:56,063 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:43:56,127 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:43:56,200 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:43:56,273 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:43:56,354 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:43:56,449 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:43:56,530 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:43:56,612 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:43:56,675 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:43:56,739 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:43:56,804 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:43:56,869 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:43:56,933 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:43:56,998 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:43:57,062 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:43:57,127 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:43:57,207 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:43:57,287 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:43:57,368 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:43:57,481 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:43:57,578 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:43:57,643 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:43:57,708 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:43:57,780 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:43:57,837 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:43:57,893 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:43:57,958 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:43:58,039 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:43:58,095 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:43:58,161 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:43:58,233 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:43:58,337 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:43:58,418 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:43:58,498 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:43:58,580 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:43:58,676 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:43:58,749 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:43:58,806 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:43:58,870 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:43:58,935 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:43:59,000 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:43:59,081 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:43:59,153 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:43:59,218 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:43:59,291 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:43:59,388 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:43:59,485 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:43:59,597 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:43:59,678 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:43:59,742 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:43:59,808 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:43:59,881 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:43:59,951 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:44:00,024 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:44:00,097 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:44:00,169 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:44:00,225 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:44:00,313 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:44:00,417 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:44:00,506 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:44:00,593 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:44:00,698 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:44:00,769 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:44:00,850 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:44:00,932 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:44:01,018 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:44:01,077 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:44:01,169 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:44:01,344 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:44:01,425 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:44:01,530 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:44:01,635 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:44:01,697 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:44:01,771 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:44:01,852 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:44:01,932 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:44:02,000 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:44:02,069 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:44:02,145 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:44:02,230 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:44:02,311 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:44:02,423 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:44:02,523 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:44:02,614 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:44:02,678 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:44:02,750 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:44:02,815 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:44:02,881 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:44:02,960 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:44:03,025 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:44:03,089 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:44:03,178 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:44:06,369 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:44:06,492 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:44:06,613 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:44:06,694 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:44:06,776 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:44:06,857 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:44:06,931 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:44:07,003 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:44:07,076 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:44:08,049 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:44:08,399 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:44:08,506 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:44:09,650 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:44:09,775 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:44:09,894 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:44:12,084 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:44:12,221 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:44:12,701 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:44:12,803 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:44:12,912 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:44:13,036 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:44:13,174 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:44:13,296 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:44:13,401 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:44:13,505 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:44:13,619 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:44:13,722 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:44:13,820 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:44:13,925 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:44:14,824 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:44:14,929 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:44:15,059 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:44:15,185 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:44:15,656 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:44:15,768 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:44:15,865 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:44:15,970 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:44:16,099 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:44:16,237 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:44:16,349 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:44:16,470 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:44:16,567 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:44:17,045 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:44:17,205 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:44:17,341 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:44:17,453 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:44:17,551 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:44:18,012 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:44:18,576 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:44:19,936 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:44:20,053 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:44:24,240 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:44:24,382 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:44:26,405 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:44:26,879 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:44:28,110 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:44:28,215 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:44:28,327 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:44:28,431 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:44:28,541 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:44:28,640 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:44:28,777 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:44:28,913 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 15:44:29,042 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 18:54:20,865 - app.models.face_model - INFO - Face model loaded successfully
+2025-11-06 18:54:20,888 - app.models.face_model - INFO - Face cascade classifier loaded successfully
+2025-11-06 18:54:44,980 - app.models.face_model - INFO - Face model loaded successfully
+2025-11-06 18:54:44,997 - app.models.face_model - INFO - Face cascade classifier loaded successfully
+2025-11-06 18:55:08,530 - app.models.face_model - INFO - Face model loaded successfully
+2025-11-06 18:55:08,548 - app.models.face_model - INFO - Face cascade classifier loaded successfully
+2025-11-06 18:55:20,951 - app.models.face_model - INFO - Face model loaded successfully
+2025-11-06 18:55:20,969 - app.models.face_model - INFO - Face cascade classifier loaded successfully
+2025-11-06 18:55:28,054 - app.models.face_model - INFO - Face model loaded successfully
+2025-11-06 18:55:28,074 - app.models.face_model - INFO - Face cascade classifier loaded successfully
+2025-11-06 18:55:59,436 - app.models.face_model - INFO - Face model loaded successfully
+2025-11-06 18:55:59,456 - app.models.face_model - INFO - Face cascade classifier loaded successfully
+2025-11-06 18:56:11,176 - app.models.face_model - INFO - Face model loaded successfully
+2025-11-06 18:56:11,195 - app.models.face_model - INFO - Face cascade classifier loaded successfully
+2025-11-06 18:56:27,413 - app.models.face_model - INFO - Face model loaded successfully
+2025-11-06 18:56:27,433 - app.models.face_model - INFO - Face cascade classifier loaded successfully
+2025-11-06 18:56:39,414 - app.models.face_model - INFO - Face model loaded successfully
+2025-11-06 18:56:39,432 - app.models.face_model - INFO - Face cascade classifier loaded successfully
+2025-11-06 18:57:24,408 - app.models.face_model - INFO - Face model loaded successfully
+2025-11-06 18:57:24,426 - app.models.face_model - INFO - Face cascade classifier loaded successfully
+2025-11-06 18:57:47,252 - app.models.face_model - INFO - Face model loaded successfully
+2025-11-06 18:57:47,270 - app.models.face_model - INFO - Face cascade classifier loaded successfully
+2025-11-06 18:58:10,863 - app.models.face_model - INFO - Face model loaded successfully
+2025-11-06 18:58:10,881 - app.models.face_model - INFO - Face cascade classifier loaded successfully
+2025-11-06 18:58:38,751 - app.models.face_model - INFO - Face model loaded successfully
+2025-11-06 18:58:38,768 - app.models.face_model - INFO - Face cascade classifier loaded successfully
+2025-11-06 18:58:46,134 - app.models.face_model - INFO - Face model loaded successfully
+2025-11-06 18:58:46,152 - app.models.face_model - INFO - Face cascade classifier loaded successfully
+2025-11-06 18:59:23,044 - app.models.face_model - INFO - Face model loaded successfully
+2025-11-06 18:59:23,062 - app.models.face_model - INFO - Face cascade classifier loaded successfully
+2025-11-06 18:59:50,364 - app.models.face_model - INFO - Face model loaded successfully
+2025-11-06 18:59:50,381 - app.models.face_model - INFO - Face cascade classifier loaded successfully
+2025-11-06 19:00:15,630 - app.models.face_model - INFO - Face model loaded successfully
+2025-11-06 19:00:15,649 - app.models.face_model - INFO - Face cascade classifier loaded successfully
+2025-11-06 19:00:28,631 - app.models.face_model - INFO - Face model loaded successfully
+2025-11-06 19:00:28,649 - app.models.face_model - INFO - Face cascade classifier loaded successfully
+2025-11-06 19:01:18,742 - app.models.face_model - INFO - Face model loaded successfully
+2025-11-06 19:01:18,760 - app.models.face_model - INFO - Face cascade classifier loaded successfully
+2025-11-06 19:01:29,092 - app.models.face_model - INFO - Face model loaded successfully
+2025-11-06 19:01:29,112 - app.models.face_model - INFO - Face cascade classifier loaded successfully
+2025-11-06 19:01:37,912 - app.models.face_model - INFO - Face model loaded successfully
+2025-11-06 19:01:37,931 - app.models.face_model - INFO - Face cascade classifier loaded successfully
+2025-11-06 19:01:56,671 - app.models.face_model - INFO - Face model loaded successfully
+2025-11-06 19:01:56,690 - app.models.face_model - INFO - Face cascade classifier loaded successfully
+2025-11-06 19:02:13,281 - app.models.face_model - INFO - Face model loaded successfully
+2025-11-06 19:02:13,298 - app.models.face_model - INFO - Face cascade classifier loaded successfully
+2025-11-06 19:02:30,879 - app.models.face_model - INFO - Face model loaded successfully
+2025-11-06 19:02:30,897 - app.models.face_model - INFO - Face cascade classifier loaded successfully
+2025-11-06 19:02:47,769 - app.models.face_model - INFO - Face model loaded successfully
+2025-11-06 19:02:47,788 - app.models.face_model - INFO - Face cascade classifier loaded successfully
+2025-11-06 19:03:05,244 - app.models.face_model - INFO - Face model loaded successfully
+2025-11-06 19:03:05,261 - app.models.face_model - INFO - Face cascade classifier loaded successfully
+2025-11-06 19:04:22,169 - app.models.face_model - INFO - Face model loaded successfully
+2025-11-06 19:04:22,187 - app.models.face_model - INFO - Face cascade classifier loaded successfully
+2025-11-06 19:04:33,872 - app.models.face_model - INFO - Face model loaded successfully
+2025-11-06 19:04:33,892 - app.models.face_model - INFO - Face cascade classifier loaded successfully
+2025-11-06 19:04:51,135 - app.models.face_model - INFO - Face model loaded successfully
+2025-11-06 19:04:51,154 - app.models.face_model - INFO - Face cascade classifier loaded successfully
+2025-11-06 19:05:23,075 - app.models.face_model - INFO - Face model loaded successfully
+2025-11-06 19:05:23,093 - app.models.face_model - INFO - Face cascade classifier loaded successfully
+2025-11-06 19:05:41,268 - app.models.face_model - INFO - Face model loaded successfully
+2025-11-06 19:05:41,286 - app.models.face_model - INFO - Face cascade classifier loaded successfully
+2025-11-06 19:06:46,093 - app.models.face_model - INFO - Face model loaded successfully
+2025-11-06 19:06:46,111 - app.models.face_model - INFO - Face cascade classifier loaded successfully
+2025-11-06 19:08:27,029 - app.models.face_model - INFO - Face model loaded successfully
+2025-11-06 19:08:27,047 - app.models.face_model - INFO - Face cascade classifier loaded successfully
+2025-11-06 19:09:00,457 - app.models.face_model - INFO - Face model loaded successfully
+2025-11-06 19:09:00,475 - app.models.face_model - INFO - Face cascade classifier loaded successfully
+2025-11-06 19:09:24,645 - app.models.face_model - INFO - Face model loaded successfully
+2025-11-06 19:09:24,662 - app.models.face_model - INFO - Face cascade classifier loaded successfully
+2025-11-06 21:50:51,370 - app.models.face_model - INFO - Face model loaded successfully
+2025-11-06 21:50:51,403 - app.models.face_model - INFO - Face cascade classifier loaded successfully
+2025-11-06 21:51:04,661 - app.models.face_model - INFO - Face model loaded successfully
+2025-11-06 21:51:04,681 - app.models.face_model - INFO - Face cascade classifier loaded successfully
+2025-11-06 22:29:02,837 - app.models.face_model - INFO - Face model loaded successfully
+2025-11-06 22:29:02,867 - app.models.face_model - INFO - Face cascade classifier loaded successfully
+2025-11-06 22:36:26,545 - app.models.face_model - INFO - Face model loaded successfully
+2025-11-06 22:36:26,564 - app.models.face_model - INFO - Face cascade classifier loaded successfully
+2025-11-06 22:39:05,359 - app.models.face_model - INFO - Face model loaded successfully
+2025-11-06 22:39:05,384 - app.models.face_model - INFO - Face cascade classifier loaded successfully
+2025-11-06 22:39:36,620 - app.models.face_model - INFO - Face model loaded successfully
+2025-11-06 22:39:36,638 - app.models.face_model - INFO - Face cascade classifier loaded successfully
+2025-11-06 22:40:14,023 - app.models.face_model - INFO - Face model loaded successfully
+2025-11-06 22:40:14,041 - app.models.face_model - INFO - Face cascade classifier loaded successfully
+2025-11-06 22:56:48,512 - app.models.face_model - INFO - Face model loaded successfully
+2025-11-06 22:56:48,551 - app.models.face_model - INFO - Face cascade classifier loaded successfully
+2025-11-06 22:56:49,314 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 22:56:49,429 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 22:56:49,562 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 22:56:49,689 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 22:56:49,812 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 22:56:49,948 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 22:56:50,091 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 22:56:50,216 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 22:56:50,337 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 22:56:50,490 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 22:56:50,636 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 22:56:50,759 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 22:56:50,884 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 22:56:51,304 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 22:56:51,447 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 22:56:51,568 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 22:56:51,700 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 22:56:51,856 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 22:56:51,987 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 22:56:52,138 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 22:56:52,278 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 22:56:52,426 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 22:56:52,574 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 22:56:53,287 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 22:56:53,438 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 22:56:53,583 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 22:56:53,732 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 22:56:53,883 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 22:56:54,593 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 22:56:54,737 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 22:56:56,715 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 22:56:57,185 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 22:56:57,328 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 22:56:57,473 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 22:56:57,640 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 22:56:57,782 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 22:56:57,955 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 22:56:58,106 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 22:56:58,263 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 22:56:58,413 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 22:56:58,547 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 22:56:58,710 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 22:56:59,238 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 22:57:02,211 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 22:57:02,351 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 22:57:02,499 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 22:57:02,654 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 22:57:02,795 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 22:57:03,559 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 22:57:03,744 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 22:57:03,917 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 22:57:04,094 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 22:57:04,238 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 22:57:04,396 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 22:57:04,562 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 22:57:04,692 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 22:57:04,856 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 22:57:05,014 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 22:57:05,178 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 22:57:05,345 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 22:57:05,507 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 22:57:05,663 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 22:57:05,795 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 22:57:05,984 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 22:57:06,150 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 22:57:06,314 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 22:57:06,497 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 22:57:06,668 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 22:57:06,816 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 22:57:06,960 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 22:57:07,117 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 22:57:07,283 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 22:57:07,444 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 22:57:07,648 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 22:57:07,791 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 22:57:07,942 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 22:57:08,090 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 22:57:08,273 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 22:57:08,437 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 22:57:08,876 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 22:57:09,389 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 22:57:09,566 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 22:57:10,991 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 22:57:12,138 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 22:57:13,214 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 22:57:15,175 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 22:57:15,338 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 22:57:15,512 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 22:57:15,680 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 22:57:15,847 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 22:57:15,995 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 22:57:16,515 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-06 22:57:17,974 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:16:19,446 - app.models.face_model - INFO - Face model loaded successfully
+2025-11-08 01:16:19,474 - app.models.face_model - INFO - Face cascade classifier loaded successfully
+2025-11-08 01:20:20,957 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:20:21,380 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:20:22,717 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:20:22,872 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:20:22,987 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:20:23,096 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:20:23,225 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:20:26,275 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:20:26,400 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:20:26,826 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:20:26,941 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:20:27,665 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:20:27,789 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:20:28,199 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:20:28,347 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:20:31,381 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:20:31,519 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:20:31,927 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:20:32,056 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:20:32,175 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:20:32,562 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:20:32,686 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:20:32,838 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:17,601 - app.models.face_model - INFO - Face model loaded successfully
+2025-11-08 01:21:17,619 - app.models.face_model - INFO - Face cascade classifier loaded successfully
+2025-11-08 01:21:17,991 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:18,065 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:18,131 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:18,196 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:18,260 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:18,319 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:18,375 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:18,434 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:18,496 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:18,554 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:18,612 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:18,684 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:18,750 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:20,469 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:20,540 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:20,613 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:20,690 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:20,762 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:20,833 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:20,904 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:20,981 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:21,054 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:21,120 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:21,202 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:21,279 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:21,360 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:21,452 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:21,522 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:21,600 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:21,676 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:21,760 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:21,842 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:21,915 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:21,995 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:22,067 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:22,137 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:22,205 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:22,273 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:22,340 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:22,418 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:22,496 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:22,564 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:22,635 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:22,717 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:22,791 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:22,870 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:22,945 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:23,012 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:23,075 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:23,140 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:23,210 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:23,276 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:23,340 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:23,405 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:23,481 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:23,719 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:23,802 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:23,904 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:24,135 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:24,524 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:24,611 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:24,697 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:24,801 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:24,884 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:24,966 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:25,034 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:25,234 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:25,306 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:25,378 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:25,604 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:25,695 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:25,786 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:25,879 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:26,412 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:26,495 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:26,572 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:26,664 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:26,758 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:26,852 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:26,952 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:27,034 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:27,111 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:27,189 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:27,267 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:27,801 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:27,899 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:27,994 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:28,114 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:28,187 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:28,260 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:28,348 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:28,418 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:28,511 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:28,593 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:28,673 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:28,750 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:28,849 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:30,211 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:30,307 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:30,535 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:30,608 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:31,177 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:33,651 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:34,027 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:34,108 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:34,216 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:34,327 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:34,433 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:34,517 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:34,599 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:34,679 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:34,756 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:34,834 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:34,912 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:35,021 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:35,104 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:35,189 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:35,283 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:35,388 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:35,487 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:35,720 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:36,121 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:36,397 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:36,506 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:36,603 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:36,694 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:36,777 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:36,864 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:36,943 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:37,027 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:37,119 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:37,202 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:37,284 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:37,371 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:37,486 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:37,595 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:37,695 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:37,786 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:38,344 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:38,431 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:38,540 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:38,652 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:38,751 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:38,839 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:38,924 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:39,039 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:39,122 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:39,205 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:39,293 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:39,385 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:39,470 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:40,429 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:40,516 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:40,637 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:40,752 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:40,843 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:41,250 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:44,307 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:44,569 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:44,659 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:44,744 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:44,869 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:46,190 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:47,652 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:47,750 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:47,868 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:47,958 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:48,047 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:48,172 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:48,284 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:48,375 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:48,463 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:48,550 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:48,641 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:48,732 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:48,827 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:48,916 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:49,006 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:49,102 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:49,462 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:56,311 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:56,577 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:56,859 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:57,009 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:57,121 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:57,230 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:58,052 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:58,174 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:58,938 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:59,085 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:59,205 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:59,309 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:59,572 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:59,678 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:21:59,766 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:22:00,141 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:22:00,502 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:22:00,833 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:22:03,361 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:22:03,503 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:22:03,630 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:22:03,760 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:22:03,903 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:22:04,033 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:22:04,150 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:22:04,289 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:22:04,453 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:22:04,609 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:22:04,734 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:22:04,871 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:22:05,000 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:59:37,002 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:59:38,779 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:59:38,946 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:59:39,489 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:59:39,630 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:59:39,793 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:59:39,958 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:59:40,145 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:59:40,320 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:59:40,503 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:59:40,690 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:59:40,857 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:59:41,060 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:59:41,242 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:59:41,446 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:59:41,650 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:59:41,855 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:59:42,048 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:59:42,231 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:59:43,527 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:59:47,195 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:59:48,082 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:59:48,272 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:59:48,485 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:59:48,686 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:59:48,909 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:59:49,118 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:59:49,302 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 01:59:49,533 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 02:00:08,997 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 02:00:09,214 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 02:00:09,475 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 02:00:09,686 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 02:00:09,879 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 02:00:10,032 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 02:00:10,250 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 02:00:10,587 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 02:00:10,802 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-08 02:00:10,945 - app.models.face_model - WARNING - No faces detected in the image
+2025-11-17 17:35:16,644 - app.models.face_model - ERROR - Error loading face model: Error when deserializing class 'InputLayer' using config={'batch_shape': [None, 48, 48, 1], 'dtype': 'float32', 'sparse': False, 'ragged': False, 'name': 'input_layer'}.
+
+Exception encountered: Unrecognized keyword arguments: ['batch_shape']

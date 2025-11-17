@@ -13,6 +13,7 @@ type ResultsTableProps = {
   onExportJSON: () => void;
   onExportCSV: () => void;
   onRowClick: (row: ResultRow) => void;
+  onDeleteOne?: (id: string) => void; // ✅ thêm
 };
 
 export const ResultsTable: React.FC<ResultsTableProps> = ({
@@ -24,6 +25,7 @@ export const ResultsTable: React.FC<ResultsTableProps> = ({
   onExportJSON,
   onExportCSV,
   onRowClick,
+  onDeleteOne, // ✅ thêm
 }) => {
   return (
     <div className="mt-8">
@@ -66,12 +68,13 @@ export const ResultsTable: React.FC<ResultsTableProps> = ({
               <th className="text-left px-3 py-2 font-medium">Confidence</th>
               <th className="text-left px-3 py-2 font-medium">Latency</th>
               <th className="text-left px-3 py-2 font-medium">Time</th>
+              <th className="text-right px-5 py-2 font-medium w-[90px]"></th> 
             </tr>
           </thead>
           <tbody>
             {filtered.length === 0 ? (
               <tr>
-                <td colSpan={6} className="p-6 text-center text-slate-400">
+                <td colSpan={7} className="p-6 text-center text-slate-400">
                   No results yet.
                 </td>
               </tr>
@@ -106,6 +109,19 @@ export const ResultsTable: React.FC<ResultsTableProps> = ({
                   <td className="px-3 py-2">{r.latency} ms</td>
                   <td className="px-3 py-2">
                     {new Date(r.ts).toLocaleString()}
+                  </td>
+                  {/* ✅ nút delete nằm cuối hàng, chữ đỏ, không nền, cách biên phải */}
+                  <td className="py-2 pr-8 text-right">
+                    <button
+                      type="button"
+                      onClick={(e) => {
+                        e.stopPropagation(); // không trigger onRowClick
+                        onDeleteOne?.(r.id);
+                      }}
+                      className="text-sm text-red-400 hover:text-red-200 mr-7"
+                    >
+                      Delete
+                    </button>
                   </td>
                 </tr>
               ))

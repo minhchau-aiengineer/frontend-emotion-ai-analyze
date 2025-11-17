@@ -1,0 +1,249 @@
+2025-11-06 09:03:12,320 - app.services.audio_service - INFO - Loading audio model from D:\React\emotion-ai-analyzer\backend\models\audio\best_model1_weights.h5
+2025-11-06 09:03:12,980 - app.services.audio_service - INFO - Audio model loaded from single-file model.
+2025-11-06 09:03:13,076 - app.services.audio_service - INFO - Loaded scaler from D:\React\emotion-ai-analyzer\backend\models\audio\scaler2.pickle
+2025-11-06 09:03:13,096 - app.services.audio_service - INFO - Loaded encoder from D:\React\emotion-ai-analyzer\backend\models\audio\encoder2.pickle
+2025-11-06 09:03:13,097 - app.services.audio_service - INFO - Reading WAV from UploadFile: audio.wav
+2025-11-06 09:03:13,104 - app.services.audio_service - INFO - Loaded WAV: 149760 samples, sample rate: 48000 Hz
+2025-11-06 09:03:13,104 - app.services.audio_service - INFO - Resampling from 48000 Hz to 22050 Hz
+2025-11-06 09:03:19,014 - app.services.audio_service - INFO - Resampled to 22050 Hz
+2025-11-06 09:03:19,815 - app.services.audio_service - INFO - Raw predictions shape: (7,), values: [4.2503709e-03 9.6894091e-01 1.0119001e-04 6.2218693e-04 2.0172129e-06
+ 2.6083313e-02 5.1582245e-11]
+2025-11-06 09:03:19,816 - app.services.audio_service - INFO - Predicted emotion: disgust, confidence: 0.9689409136772156
+2025-11-06 09:03:48,460 - app.services.audio_service - INFO - Reading WAV from UploadFile: recorded_audio.wav
+2025-11-06 09:03:48,462 - app.services.audio_service - INFO - Loaded WAV: 167040 samples, sample rate: 48000 Hz
+2025-11-06 09:03:48,462 - app.services.audio_service - INFO - Resampling from 48000 Hz to 22050 Hz
+2025-11-06 09:03:48,466 - app.services.audio_service - INFO - Resampled to 22050 Hz
+2025-11-06 09:03:48,709 - app.services.audio_service - INFO - Raw predictions shape: (7,), values: [6.7337662e-14 1.9597501e-10 2.2079199e-05 9.9984658e-01 5.4229103e-27
+ 1.3140138e-04 3.6240809e-15]
+2025-11-06 09:03:48,710 - app.services.audio_service - INFO - Predicted emotion: happy, confidence: 0.9998465776443481
+2025-11-06 09:41:25,147 - app.services.audio_service - INFO - Reading WAV from UploadFile: audio.wav
+2025-11-06 09:41:25,147 - app.services.audio_service - INFO - Loaded WAV: 195840 samples, sample rate: 48000 Hz
+2025-11-06 09:41:25,147 - app.services.audio_service - INFO - Resampling from 48000 Hz to 22050 Hz
+2025-11-06 09:41:25,152 - app.services.audio_service - INFO - Resampled to 22050 Hz
+2025-11-06 09:41:25,387 - app.services.audio_service - INFO - Raw predictions shape: (7,), values: [3.2784436e-10 3.8990949e-11 2.5767511e-07 9.9999976e-01 4.0681858e-17
+ 4.4971666e-09 1.2641407e-10]
+2025-11-06 09:41:25,388 - app.services.audio_service - INFO - Predicted emotion: happy, confidence: 0.9999997615814209
+2025-11-06 09:41:39,609 - app.services.audio_service - INFO - Reading WAV from UploadFile: recorded_audio.wav
+2025-11-06 09:41:39,610 - app.services.audio_service - INFO - Loaded WAV: 195840 samples, sample rate: 48000 Hz
+2025-11-06 09:41:39,610 - app.services.audio_service - INFO - Resampling from 48000 Hz to 22050 Hz
+2025-11-06 09:41:39,612 - app.services.audio_service - INFO - Resampled to 22050 Hz
+2025-11-06 09:41:39,838 - app.services.audio_service - INFO - Raw predictions shape: (7,), values: [3.6654812e-06 3.3964342e-09 5.0377318e-13 9.9999630e-01 5.9090302e-15
+ 1.8018616e-10 5.0227276e-09]
+2025-11-06 09:41:39,839 - app.services.audio_service - INFO - Predicted emotion: happy, confidence: 0.9999963045120239
+2025-11-06 09:41:41,783 - app.services.audio_service - INFO - Reading WAV from UploadFile: recorded_audio.wav
+2025-11-06 09:41:41,783 - app.services.audio_service - INFO - Loaded WAV: 195840 samples, sample rate: 48000 Hz
+2025-11-06 09:41:41,783 - app.services.audio_service - INFO - Resampling from 48000 Hz to 22050 Hz
+2025-11-06 09:41:41,787 - app.services.audio_service - INFO - Resampled to 22050 Hz
+2025-11-06 09:41:42,019 - app.services.audio_service - INFO - Raw predictions shape: (7,), values: [3.6654812e-06 3.3964342e-09 5.0377318e-13 9.9999630e-01 5.9090302e-15
+ 1.8018616e-10 5.0227276e-09]
+2025-11-06 09:41:42,019 - app.services.audio_service - INFO - Predicted emotion: happy, confidence: 0.9999963045120239
+2025-11-06 09:42:34,955 - app.services.audio_service - INFO - Reading WAV from UploadFile: recorded_audio.wav
+2025-11-06 09:42:34,956 - app.services.audio_service - INFO - Loaded WAV: 109440 samples, sample rate: 48000 Hz
+2025-11-06 09:42:34,956 - app.services.audio_service - INFO - Resampling from 48000 Hz to 22050 Hz
+2025-11-06 09:42:34,957 - app.services.audio_service - INFO - Resampled to 22050 Hz
+2025-11-06 09:42:35,165 - app.services.audio_service - INFO - Raw predictions shape: (7,), values: [8.2162506e-11 1.8409533e-11 2.0218558e-12 9.9999845e-01 4.7288882e-23
+ 1.5224381e-06 6.8569643e-11]
+2025-11-06 09:42:35,166 - app.services.audio_service - INFO - Predicted emotion: happy, confidence: 0.9999984502792358
+2025-11-06 09:42:45,311 - app.services.audio_service - INFO - Reading WAV from UploadFile: recorded_audio.wav
+2025-11-06 09:42:45,312 - app.services.audio_service - INFO - Loaded WAV: 86400 samples, sample rate: 48000 Hz
+2025-11-06 09:42:45,312 - app.services.audio_service - INFO - Resampling from 48000 Hz to 22050 Hz
+2025-11-06 09:42:45,314 - app.services.audio_service - INFO - Resampled to 22050 Hz
+2025-11-06 09:42:45,494 - app.services.audio_service - INFO - Raw predictions shape: (7,), values: [2.1932858e-22 1.2355988e-30 2.3783581e-28 1.0000000e+00 0.0000000e+00
+ 1.7618732e-19 4.8544437e-24]
+2025-11-06 09:42:45,495 - app.services.audio_service - INFO - Predicted emotion: happy, confidence: 1.0
+2025-11-06 09:43:01,797 - app.services.audio_service - INFO - Reading WAV from UploadFile: audio.wav
+2025-11-06 09:43:01,800 - app.services.audio_service - INFO - Loaded WAV: 838080 samples, sample rate: 48000 Hz
+2025-11-06 09:43:01,801 - app.services.audio_service - INFO - Resampling from 48000 Hz to 22050 Hz
+2025-11-06 09:43:01,810 - app.services.audio_service - INFO - Resampled to 22050 Hz
+2025-11-06 09:43:02,008 - app.services.audio_service - INFO - Raw predictions shape: (7,), values: [1.6747556e-15 8.2924245e-09 9.9854398e-01 1.9545414e-06 3.1929844e-18
+ 1.4540865e-03 3.1788461e-09]
+2025-11-06 09:43:02,010 - app.services.audio_service - INFO - Predicted emotion: fear, confidence: 0.9985439777374268
+2025-11-06 11:27:57,650 - app.services.audio_service - INFO - Loading audio model from D:\React\emotion-ai-analyzer\backend\models\audio\best_model1_weights.h5
+2025-11-06 11:27:58,559 - app.services.audio_service - INFO - Audio model loaded from single-file model.
+2025-11-06 11:27:58,629 - app.services.audio_service - INFO - Loaded scaler from D:\React\emotion-ai-analyzer\backend\models\audio\scaler2.pickle
+2025-11-06 11:27:58,630 - app.services.audio_service - INFO - Loaded encoder from D:\React\emotion-ai-analyzer\backend\models\audio\encoder2.pickle
+2025-11-06 11:27:58,631 - app.services.audio_service - INFO - Reading WAV from bytes: 80474 bytes
+2025-11-06 11:27:58,632 - app.services.audio_service - ERROR - Error reading WAV file: Error opening <_io.BytesIO object at 0x00000275FF26F560>: Format not recognised.
+2025-11-06 11:28:05,669 - app.services.audio_service - INFO - Reading WAV from bytes: 80474 bytes
+2025-11-06 11:28:05,675 - app.services.audio_service - ERROR - Error reading WAV file: Error opening <_io.BytesIO object at 0x000002758F16B060>: Format not recognised.
+2025-11-06 11:28:06,535 - app.services.audio_service - INFO - Reading WAV from bytes: 80474 bytes
+2025-11-06 11:28:06,535 - app.services.audio_service - ERROR - Error reading WAV file: Error opening <_io.BytesIO object at 0x0000027597A8D2B0>: Format not recognised.
+2025-11-06 14:35:18,036 - app.services.audio_service - INFO - Loading audio model from D:\React\emotion-ai-analyzer\backend\models\audio\best_model1_weights.h5
+2025-11-06 14:35:19,092 - app.services.audio_service - INFO - Audio model loaded from single-file model.
+2025-11-06 14:35:19,186 - app.services.audio_service - INFO - Loaded scaler from D:\React\emotion-ai-analyzer\backend\models\audio\scaler2.pickle
+2025-11-06 14:35:19,186 - app.services.audio_service - INFO - Loaded encoder from D:\React\emotion-ai-analyzer\backend\models\audio\encoder2.pickle
+2025-11-06 14:35:19,191 - app.services.audio_service - INFO - Reading audio from bytes: 80474 bytes
+2025-11-06 14:35:19,191 - app.services.audio_service - WARNING - soundfile could not decode audio: Error opening <_io.BytesIO object at 0x0000025CC7E81C10>: Format not recognised.. Falling back to librosa/audioread
+2025-11-06 14:35:26,372 - app.services.audio_service - ERROR - Error decoding audio bytes: Error opening <_io.BytesIO object at 0x0000025CC7E81C10>: Format not recognised.
+2025-11-06 14:40:21,797 - app.services.audio_service - INFO - Loading audio model from D:\React\emotion-ai-analyzer\backend\models\audio\best_model1_weights.h5
+2025-11-06 14:40:22,854 - app.services.audio_service - INFO - Audio model loaded from single-file model.
+2025-11-06 14:40:22,946 - app.services.audio_service - INFO - Loaded scaler from D:\React\emotion-ai-analyzer\backend\models\audio\scaler2.pickle
+2025-11-06 14:40:22,954 - app.services.audio_service - INFO - Loaded encoder from D:\React\emotion-ai-analyzer\backend\models\audio\encoder2.pickle
+2025-11-06 14:40:22,955 - app.services.audio_service - INFO - Reading audio from bytes: 80474 bytes
+2025-11-06 14:40:22,955 - app.services.audio_service - WARNING - soundfile could not decode audio: Error opening <_io.BytesIO object at 0x000001440D3582C0>: Format not recognised.. Falling back to librosa/audioread
+2025-11-06 14:40:29,999 - app.services.audio_service - ERROR - Error decoding audio bytes: 
+2025-11-06 14:42:08,437 - app.services.audio_service - INFO - Loading audio model from D:\React\emotion-ai-analyzer\backend\models\audio\best_model1_weights.h5
+2025-11-06 14:42:09,417 - app.services.audio_service - INFO - Audio model loaded from single-file model.
+2025-11-06 14:42:09,425 - app.services.audio_service - INFO - Loaded scaler from D:\React\emotion-ai-analyzer\backend\models\audio\scaler2.pickle
+2025-11-06 14:42:09,429 - app.services.audio_service - INFO - Loaded encoder from D:\React\emotion-ai-analyzer\backend\models\audio\encoder2.pickle
+2025-11-06 14:42:09,429 - app.services.audio_service - INFO - Reading audio from UploadFile: audio.wav
+2025-11-06 14:42:09,434 - app.services.audio_service - INFO - Loaded audio via soundfile: 239040 samples, sample rate: 48000 Hz
+2025-11-06 14:42:09,434 - app.services.audio_service - INFO - Resampling from 48000 Hz to 22050 Hz
+2025-11-06 14:42:11,134 - app.services.audio_service - INFO - Resampled to 22050 Hz
+2025-11-06 14:42:12,718 - app.services.audio_service - INFO - Raw predictions shape: (7,), values: [4.8437928e-14 1.6220119e-11 7.5919335e-05 1.6668472e-01 8.2349207e-21
+ 8.3323926e-01 7.6636248e-08]
+2025-11-06 14:42:12,724 - app.services.audio_service - INFO - Predicted emotion: sad, confidence: 0.8332392573356628
+2025-11-06 14:42:35,457 - app.services.audio_service - INFO - Loading audio model from D:\React\emotion-ai-analyzer\backend\models\audio\best_model1_weights.h5
+2025-11-06 14:42:36,604 - app.services.audio_service - INFO - Audio model loaded from single-file model.
+2025-11-06 14:42:36,697 - app.services.audio_service - INFO - Loaded scaler from D:\React\emotion-ai-analyzer\backend\models\audio\scaler2.pickle
+2025-11-06 14:42:36,697 - app.services.audio_service - INFO - Loaded encoder from D:\React\emotion-ai-analyzer\backend\models\audio\encoder2.pickle
+2025-11-06 14:42:36,697 - app.services.audio_service - INFO - Reading audio from UploadFile: audio.wav
+2025-11-06 14:42:36,697 - app.services.audio_service - INFO - Loaded audio via soundfile: 149760 samples, sample rate: 48000 Hz
+2025-11-06 14:42:36,704 - app.services.audio_service - INFO - Resampling from 48000 Hz to 22050 Hz
+2025-11-06 14:42:45,434 - app.services.audio_service - INFO - Resampled to 22050 Hz
+2025-11-06 14:42:46,874 - app.services.audio_service - INFO - Raw predictions shape: (7,), values: [4.2503788e-03 9.6894091e-01 1.0118982e-04 6.2218745e-04 2.0172149e-06
+ 2.6083278e-02 5.1582245e-11]
+2025-11-06 14:42:46,874 - app.services.audio_service - INFO - Predicted emotion: disgust, confidence: 0.9689409136772156
+2025-11-06 14:44:45,411 - app.services.audio_service - INFO - Loading audio model from D:\React\emotion-ai-analyzer\backend\models\audio\best_model1_weights.h5
+2025-11-06 14:44:46,266 - app.services.audio_service - INFO - Audio model loaded from single-file model.
+2025-11-06 14:44:46,334 - app.services.audio_service - INFO - Loaded scaler from D:\React\emotion-ai-analyzer\backend\models\audio\scaler2.pickle
+2025-11-06 14:44:46,341 - app.services.audio_service - INFO - Loaded encoder from D:\React\emotion-ai-analyzer\backend\models\audio\encoder2.pickle
+2025-11-06 14:44:46,341 - app.services.audio_service - INFO - Reading audio from bytes: 478124 bytes
+2025-11-06 14:44:46,341 - app.services.audio_service - INFO - Loaded audio via soundfile: 239040 samples, sample rate: 48000 Hz
+2025-11-06 14:44:46,341 - app.services.audio_service - INFO - Resampling from 48000 Hz to 22050 Hz
+2025-11-06 14:44:54,473 - app.services.audio_service - INFO - Resampled to 22050 Hz
+2025-11-06 14:44:56,273 - app.services.audio_service - INFO - Raw predictions shape: (7,), values: [4.8437928e-14 1.6220119e-11 7.5919335e-05 1.6668472e-01 8.2349207e-21
+ 8.3323926e-01 7.6636248e-08]
+2025-11-06 14:44:56,281 - app.services.audio_service - INFO - Predicted emotion: sad, confidence: 0.8332392573356628
+2025-11-06 14:45:06,087 - app.services.audio_service - INFO - Reading audio from bytes: 299564 bytes
+2025-11-06 14:45:06,091 - app.services.audio_service - INFO - Loaded audio via soundfile: 149760 samples, sample rate: 48000 Hz
+2025-11-06 14:45:06,091 - app.services.audio_service - INFO - Resampling from 48000 Hz to 22050 Hz
+2025-11-06 14:45:06,094 - app.services.audio_service - INFO - Resampled to 22050 Hz
+2025-11-06 14:45:06,354 - app.services.audio_service - INFO - Raw predictions shape: (7,), values: [4.2503788e-03 9.6894091e-01 1.0118982e-04 6.2218745e-04 2.0172149e-06
+ 2.6083278e-02 5.1582245e-11]
+2025-11-06 14:45:06,354 - app.services.audio_service - INFO - Predicted emotion: disgust, confidence: 0.9689409136772156
+2025-11-06 14:59:19,872 - app.services.audio_service - INFO - Reading audio from bytes: 1676204 bytes
+2025-11-06 14:59:19,880 - app.services.audio_service - INFO - Loaded audio via soundfile: 838080 samples, sample rate: 48000 Hz
+2025-11-06 14:59:19,880 - app.services.audio_service - INFO - Resampling from 48000 Hz to 22050 Hz
+2025-11-06 14:59:19,896 - app.services.audio_service - INFO - Resampled to 22050 Hz
+2025-11-06 14:59:20,154 - app.services.audio_service - INFO - Raw predictions shape: (7,), values: [1.6747427e-15 8.2924405e-09 9.9854398e-01 1.9545432e-06 3.1929722e-18
+ 1.4540865e-03 3.1788523e-09]
+2025-11-06 14:59:20,154 - app.services.audio_service - INFO - Predicted emotion: fear, confidence: 0.9985439777374268
+2025-11-06 15:40:31,530 - app.services.audio_service - INFO - Loading audio model from D:\React\emotion-ai-analyzer\backend\models\audio\best_model1_weights.h5
+2025-11-06 15:40:31,860 - app.services.audio_service - INFO - Audio model loaded from single-file model.
+2025-11-06 15:40:31,894 - app.services.audio_service - INFO - Loaded scaler from D:\React\emotion-ai-analyzer\backend\models\audio\scaler2.pickle
+2025-11-06 15:40:31,895 - app.services.audio_service - INFO - Loaded encoder from D:\React\emotion-ai-analyzer\backend\models\audio\encoder2.pickle
+2025-11-06 15:40:31,896 - app.services.audio_service - INFO - Reading audio from bytes: 75204 bytes
+2025-11-06 15:40:31,896 - app.services.audio_service - INFO - Loaded audio via soundfile: 37574 samples, sample rate: 24414 Hz
+2025-11-06 15:40:31,898 - app.services.audio_service - INFO - Resampling from 24414 Hz to 22050 Hz
+2025-11-06 15:40:34,732 - app.services.audio_service - INFO - Resampled to 22050 Hz
+2025-11-06 15:40:35,358 - app.services.audio_service - INFO - Raw predictions shape: (7,), values: [5.2193143e-09 5.6605036e-23 6.3293462e-13 9.9999249e-01 3.4662823e-33
+ 7.6581337e-12 7.4524723e-06]
+2025-11-06 15:40:35,359 - app.services.audio_service - INFO - Predicted emotion: happy, confidence: 0.9999924898147583
+2025-11-06 15:40:47,157 - app.services.audio_service - INFO - Reading audio from bytes: 84388 bytes
+2025-11-06 15:40:47,157 - app.services.audio_service - INFO - Loaded audio via soundfile: 42166 samples, sample rate: 24414 Hz
+2025-11-06 15:40:47,157 - app.services.audio_service - INFO - Resampling from 24414 Hz to 22050 Hz
+2025-11-06 15:40:47,159 - app.services.audio_service - INFO - Resampled to 22050 Hz
+2025-11-06 15:40:47,272 - app.services.audio_service - INFO - Raw predictions shape: (7,), values: [2.5044923e-17 4.1149793e-32 7.6132702e-21 1.0000000e+00 1.8389956e-36
+ 4.3919326e-14 2.3588609e-12]
+2025-11-06 15:40:47,273 - app.services.audio_service - INFO - Predicted emotion: happy, confidence: 1.0
+2025-11-06 15:40:58,854 - app.services.audio_service - INFO - Reading audio from bytes: 99832 bytes
+2025-11-06 15:40:58,855 - app.services.audio_service - INFO - Loaded audio via soundfile: 49888 samples, sample rate: 24414 Hz
+2025-11-06 15:40:58,855 - app.services.audio_service - INFO - Resampling from 24414 Hz to 22050 Hz
+2025-11-06 15:40:58,857 - app.services.audio_service - INFO - Resampled to 22050 Hz
+2025-11-06 15:40:58,975 - app.services.audio_service - INFO - Raw predictions shape: (7,), values: [2.0357319e-19 2.7197662e-22 5.7009829e-23 1.0000000e+00 4.1544025e-36
+ 2.3574181e-11 4.1025363e-16]
+2025-11-06 15:40:58,975 - app.services.audio_service - INFO - Predicted emotion: happy, confidence: 1.0
+2025-11-06 15:41:37,343 - app.services.audio_service - INFO - Loading audio model from D:\React\emotion-ai-analyzer\backend\models\audio\best_model1_weights.h5
+2025-11-06 15:41:37,634 - app.services.audio_service - INFO - Audio model loaded from single-file model.
+2025-11-06 15:41:37,635 - app.services.audio_service - INFO - Loaded scaler from D:\React\emotion-ai-analyzer\backend\models\audio\scaler2.pickle
+2025-11-06 15:41:37,636 - app.services.audio_service - INFO - Loaded encoder from D:\React\emotion-ai-analyzer\backend\models\audio\encoder2.pickle
+2025-11-06 15:41:37,636 - app.services.audio_service - INFO - Reading audio from UploadFile: audio.wav
+2025-11-06 15:41:37,637 - app.services.audio_service - INFO - Loaded audio via soundfile: 73873 samples, sample rate: 48000 Hz
+2025-11-06 15:41:37,637 - app.services.audio_service - INFO - Resampling from 48000 Hz to 22050 Hz
+2025-11-06 15:41:37,638 - app.services.audio_service - INFO - Resampled to 22050 Hz
+2025-11-06 15:41:37,938 - app.services.audio_service - INFO - Raw predictions shape: (7,), values: [3.3978400e-09 4.2426429e-23 5.7330377e-13 9.9999237e-01 2.9336148e-33
+ 5.8514244e-12 7.6507249e-06]
+2025-11-06 15:41:37,938 - app.services.audio_service - INFO - Predicted emotion: happy, confidence: 0.9999923706054688
+2025-11-06 15:41:50,047 - app.services.audio_service - INFO - Reading audio from UploadFile: audio.wav
+2025-11-06 15:41:50,047 - app.services.audio_service - INFO - Loaded audio via soundfile: 114717 samples, sample rate: 48000 Hz
+2025-11-06 15:41:50,048 - app.services.audio_service - INFO - Resampling from 48000 Hz to 22050 Hz
+2025-11-06 15:41:50,050 - app.services.audio_service - INFO - Resampled to 22050 Hz
+2025-11-06 15:41:50,164 - app.services.audio_service - INFO - Raw predictions shape: (7,), values: [9.2708863e-10 9.6880444e-07 1.6434943e-09 5.4833806e-01 1.7640551e-18
+ 4.5137349e-01 2.8743956e-04]
+2025-11-06 15:41:50,165 - app.services.audio_service - INFO - Predicted emotion: happy, confidence: 0.5483380556106567
+2025-11-06 15:41:53,120 - app.services.audio_service - INFO - Reading audio from UploadFile: audio.wav
+2025-11-06 15:41:53,120 - app.services.audio_service - INFO - Loaded audio via soundfile: 114717 samples, sample rate: 48000 Hz
+2025-11-06 15:41:53,122 - app.services.audio_service - INFO - Resampling from 48000 Hz to 22050 Hz
+2025-11-06 15:41:53,123 - app.services.audio_service - INFO - Resampled to 22050 Hz
+2025-11-06 15:41:53,241 - app.services.audio_service - INFO - Raw predictions shape: (7,), values: [9.2708863e-10 9.6880444e-07 1.6434943e-09 5.4833806e-01 1.7640551e-18
+ 4.5137349e-01 2.8743956e-04]
+2025-11-06 15:41:53,241 - app.services.audio_service - INFO - Predicted emotion: happy, confidence: 0.5483380556106567
+2025-11-06 15:41:54,272 - app.services.audio_service - INFO - Reading audio from UploadFile: audio.wav
+2025-11-06 15:41:54,273 - app.services.audio_service - INFO - Loaded audio via soundfile: 114717 samples, sample rate: 48000 Hz
+2025-11-06 15:41:54,273 - app.services.audio_service - INFO - Resampling from 48000 Hz to 22050 Hz
+2025-11-06 15:41:54,276 - app.services.audio_service - INFO - Resampled to 22050 Hz
+2025-11-06 15:41:54,392 - app.services.audio_service - INFO - Raw predictions shape: (7,), values: [9.2708863e-10 9.6880444e-07 1.6434943e-09 5.4833806e-01 1.7640551e-18
+ 4.5137349e-01 2.8743956e-04]
+2025-11-06 15:41:54,392 - app.services.audio_service - INFO - Predicted emotion: happy, confidence: 0.5483380556106567
+2025-11-06 15:41:54,736 - app.services.audio_service - INFO - Reading audio from UploadFile: audio.wav
+2025-11-06 15:41:54,736 - app.services.audio_service - INFO - Loaded audio via soundfile: 114717 samples, sample rate: 48000 Hz
+2025-11-06 15:41:54,738 - app.services.audio_service - INFO - Resampling from 48000 Hz to 22050 Hz
+2025-11-06 15:41:54,739 - app.services.audio_service - INFO - Resampled to 22050 Hz
+2025-11-06 15:41:54,850 - app.services.audio_service - INFO - Raw predictions shape: (7,), values: [9.2708863e-10 9.6880444e-07 1.6434943e-09 5.4833806e-01 1.7640551e-18
+ 4.5137349e-01 2.8743956e-04]
+2025-11-06 15:41:54,850 - app.services.audio_service - INFO - Predicted emotion: happy, confidence: 0.5483380556106567
+2025-11-06 18:35:34,298 - app.services.audio_service - INFO - Reading audio from bytes: 72650 bytes
+2025-11-06 18:35:34,299 - app.services.audio_service - INFO - Loaded audio via soundfile: 36303 samples, sample rate: 16000 Hz
+2025-11-06 18:35:34,300 - app.services.audio_service - INFO - Resampling from 16000 Hz to 22050 Hz
+2025-11-06 18:35:34,302 - app.services.audio_service - INFO - Resampled to 22050 Hz
+2025-11-06 18:35:34,572 - app.services.audio_service - INFO - Raw predictions shape: (7,), values: [2.5840296e-04 2.3935431e-08 1.6473299e-03 9.9804771e-01 6.0283353e-20
+ 3.5003354e-06 4.2948381e-05]
+2025-11-06 18:35:34,573 - app.services.audio_service - INFO - Predicted emotion: happy, confidence: 0.9980477094650269
+2025-11-06 19:07:54,193 - app.services.audio_service - INFO - Loading audio model from D:\React\emotion-ai-analyzer\backend\models\audio\best_model1_weights.h5
+2025-11-06 19:07:54,813 - app.services.audio_service - INFO - Audio model loaded from single-file model.
+2025-11-06 19:07:54,882 - app.services.audio_service - INFO - Loaded scaler from D:\React\emotion-ai-analyzer\backend\models\audio\scaler2.pickle
+2025-11-06 19:07:54,899 - app.services.audio_service - INFO - Loaded encoder from D:\React\emotion-ai-analyzer\backend\models\audio\encoder2.pickle
+2025-11-06 19:07:54,900 - app.services.audio_service - INFO - Reading audio from UploadFile: audio.wav
+2025-11-06 19:07:54,902 - app.services.audio_service - INFO - Loaded audio via soundfile: 118518 samples, sample rate: 48000 Hz
+2025-11-06 19:07:54,902 - app.services.audio_service - INFO - Resampling from 48000 Hz to 22050 Hz
+2025-11-06 19:07:59,578 - app.services.audio_service - INFO - Resampled to 22050 Hz
+2025-11-06 19:08:00,315 - app.services.audio_service - INFO - Raw predictions shape: (7,), values: [2.3188668e-01 1.8846855e-11 4.4401881e-04 7.6763123e-01 2.5310765e-19
+ 2.4014234e-06 3.5733214e-05]
+2025-11-06 19:08:00,316 - app.services.audio_service - INFO - Predicted emotion: happy, confidence: 0.7676312327384949
+2025-11-06 22:55:48,090 - app.services.audio_service - INFO - Loading audio model from D:\React\emotion-ai-analyzer\backend\models\audio\best_model1_weights.h5
+2025-11-06 22:55:48,739 - app.services.audio_service - INFO - Audio model loaded from single-file model.
+2025-11-06 22:55:48,835 - app.services.audio_service - INFO - Loaded scaler from D:\React\emotion-ai-analyzer\backend\models\audio\scaler2.pickle
+2025-11-06 22:55:48,836 - app.services.audio_service - INFO - Loaded encoder from D:\React\emotion-ai-analyzer\backend\models\audio\encoder2.pickle
+2025-11-06 22:55:48,836 - app.services.audio_service - INFO - Reading audio from UploadFile: recorded_audio.wav
+2025-11-06 22:55:48,843 - app.services.audio_service - INFO - Loaded audio via soundfile: 132480 samples, sample rate: 48000 Hz
+2025-11-06 22:55:48,843 - app.services.audio_service - INFO - Resampling from 48000 Hz to 22050 Hz
+2025-11-06 22:55:54,606 - app.services.audio_service - INFO - Resampled to 22050 Hz
+2025-11-06 22:55:55,267 - app.services.audio_service - INFO - Raw predictions shape: (7,), values: [6.0193570e-06 1.0625499e-09 1.2230144e-05 9.9997675e-01 4.0650051e-17
+ 5.8477268e-13 4.9466453e-06]
+2025-11-06 22:55:55,267 - app.services.audio_service - INFO - Predicted emotion: happy, confidence: 0.9999767541885376
+2025-11-06 23:12:14,011 - app.services.audio_service - INFO - Reading audio from UploadFile: audio.wav
+2025-11-06 23:12:14,012 - app.services.audio_service - INFO - Loaded audio via soundfile: 108909 samples, sample rate: 48000 Hz
+2025-11-06 23:12:14,013 - app.services.audio_service - INFO - Resampling from 48000 Hz to 22050 Hz
+2025-11-06 23:12:14,016 - app.services.audio_service - INFO - Resampled to 22050 Hz
+2025-11-06 23:12:14,273 - app.services.audio_service - INFO - Raw predictions shape: (7,), values: [3.8303479e-04 1.7264928e-07 1.3804436e-03 9.9822646e-01 1.3198976e-19
+ 4.4771755e-06 5.4542152e-06]
+2025-11-06 23:12:14,274 - app.services.audio_service - INFO - Predicted emotion: happy, confidence: 0.9982264637947083
+2025-11-06 23:12:32,203 - app.services.audio_service - INFO - Reading audio from UploadFile: audio.wav
+2025-11-06 23:12:32,204 - app.services.audio_service - INFO - Loaded audio via soundfile: 73674 samples, sample rate: 48000 Hz
+2025-11-06 23:12:32,205 - app.services.audio_service - INFO - Resampling from 48000 Hz to 22050 Hz
+2025-11-06 23:12:32,206 - app.services.audio_service - INFO - Resampled to 22050 Hz
+2025-11-06 23:12:32,458 - app.services.audio_service - INFO - Raw predictions shape: (7,), values: [2.4485130e-12 5.4225370e-29 9.9728190e-20 1.0000000e+00 0.0000000e+00
+ 4.7617926e-13 9.3224426e-17]
+2025-11-06 23:12:32,461 - app.services.audio_service - INFO - Predicted emotion: happy, confidence: 1.0
+2025-11-08 02:31:27,899 - app.services.audio_service - INFO - Loading audio model from D:\React\emotion-ai-analyzer\backend\models\audio\best_model1_weights.h5
+2025-11-08 02:31:28,363 - app.services.audio_service - INFO - Audio model loaded from single-file model.
+2025-11-08 02:31:28,467 - app.services.audio_service - INFO - Loaded scaler from D:\React\emotion-ai-analyzer\backend\models\audio\scaler2.pickle
+2025-11-08 02:31:28,483 - app.services.audio_service - INFO - Loaded encoder from D:\React\emotion-ai-analyzer\backend\models\audio\encoder2.pickle
+2025-11-08 02:31:28,484 - app.services.audio_service - INFO - Reading audio from UploadFile: audio.wav
+2025-11-08 02:31:28,490 - app.services.audio_service - INFO - Loaded audio via soundfile: 149760 samples, sample rate: 48000 Hz
+2025-11-08 02:31:28,490 - app.services.audio_service - INFO - Resampling from 48000 Hz to 22050 Hz
+2025-11-08 02:31:33,210 - app.services.audio_service - INFO - Resampled to 22050 Hz
+2025-11-08 02:31:33,782 - app.services.audio_service - INFO - Raw predictions shape: (7,), values: [4.2503709e-03 9.6894091e-01 1.0119001e-04 6.2218693e-04 2.0172129e-06
+ 2.6083313e-02 5.1582245e-11]
+2025-11-08 02:31:33,783 - app.services.audio_service - INFO - Predicted emotion: disgust, confidence: 0.9689409136772156

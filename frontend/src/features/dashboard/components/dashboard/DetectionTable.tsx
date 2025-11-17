@@ -4,7 +4,7 @@ import { EmotionResult } from "@/types/emotions";
 type Props = {
   results: EmotionResult[];
   onSelect: (r: EmotionResult) => void;
-  onDeleteOne?: (id: string) => void;
+  onDeleteOne?: (id: string, type?: 'upload' | 'audio' | 'vision') => void;
 };
 
 const EMOTION_LABELS: Record<string, string> = {
@@ -52,7 +52,7 @@ export function DetectionTable({ results, onSelect, onDeleteOne }: Props) {
   return (
     <div className="rounded-2xl p-6 border border-white/10 bg-white/5 hover:bg-white/10 transition">
       {/* header + toolbar */}
-      <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-3 mb-4">
+      <div className="flex flex-col lg:flex-row lg:justify-between lg:items-start gap-3 mb-4">
         <div className="space-y-1">
           <h3 className="text-xl font-bold">Detection Details</h3>
           <p className="text-xs text-gray-400">
@@ -62,7 +62,6 @@ export function DetectionTable({ results, onSelect, onDeleteOne }: Props) {
 
         {/* thanh công cụ */}
         <div className="flex flex-wrap gap-2 lg:justify-end">
-          {/* search: dài hơn */}
           <div className="relative grow md:grow-0 md:w-72 lg:w-80">
             <input
               value={search}
@@ -72,7 +71,6 @@ export function DetectionTable({ results, onSelect, onDeleteOne }: Props) {
             />
           </div>
 
-          {/* select emotion: rộng hơn */}
           <select
             value={emotionFilter}
             onChange={(e) => setEmotionFilter(e.target.value)}
@@ -86,7 +84,6 @@ export function DetectionTable({ results, onSelect, onDeleteOne }: Props) {
             ))}
           </select>
 
-          {/* select type: rộng hơn */}
           <select
             value={typeFilter}
             onChange={(e) => setTypeFilter(e.target.value as any)}
@@ -108,36 +105,40 @@ export function DetectionTable({ results, onSelect, onDeleteOne }: Props) {
 
       {/* table */}
       <div className="overflow-x-auto rounded-lg border border-white/5">
-        <table className="w-full text-sm">
+        <table className="w-full text-sm table-fixed">
           <thead className="sticky top-0 bg-slate-900/80 backdrop-blur border-b border-white/10">
             <tr>
-              <th className="text-left py-3 px-4 w-20">Time</th>
-              <th className="text-left py-3 px-4">Emotion</th>
-              <th className="text-left py-3 px-4 w-32">Confidence</th>
-              <th className="text-left py-3 px-4 w-24">Type</th>
-              <th className="text-right py-3 px-4 w-16"></th>
+              <th className="py-3 px-4 text-left w-[10%]">Time</th>
+              <th className="py-3 px-4 text-left w-[35%]">Emotion</th>
+              <th className="py-3 px-4 text-left w-[20%]">Confidence</th>
+              <th className="py-3 px-4 text-left w-[20%]">Type</th>
+              <th className="py-3 px-4 text-right w-[15%]"> </th>
             </tr>
           </thead>
           <tbody>
             {filtered.map((r) => (
               <tr key={r.id} className="border-b border-white/5 hover:bg-white/5 transition">
-                <td className="py-3 px-4 cursor-pointer" onClick={() => onSelect(r)}>
+                <td className="py-3 px-4 w-[10%] cursor-pointer" onClick={() => onSelect(r)}>
                   {r.timestamp.toFixed(1)}s
                 </td>
-                <td className="py-3 px-4 capitalize cursor-pointer" onClick={() => onSelect(r)}>
+                <td className="py-3 px-4 w-[35%] capitalize cursor-pointer" onClick={() => onSelect(r)}>
                   {r.emotion_type}
                 </td>
-                <td className="py-3 px-4 cursor-pointer" onClick={() => onSelect(r)}>
+                <td className="py-3 px-4 w-[20%] cursor-pointer" onClick={() => onSelect(r)}>
                   {(r.confidence * 100).toFixed(1)}%
                 </td>
-                <td className="py-3 px-4 capitalize cursor-pointer" onClick={() => onSelect(r)}>
+                <td className="py-3 px-4 w-[20%] capitalize cursor-pointer" onClick={() => onSelect(r)}>
                   {r.detection_type}
                 </td>
-                <td className="py-3 px-4 text-right">
+                <td className="py-3 px-4 text-right w-[15%]">
                   <button
                     className="text-sm text-red-300 hover:text-red-200"
-                    onClick={() => onDeleteOne?.(r.id)}
-                    title="Delete this record"
+                    onClick={() => {
+                      // Map detection_type to trash type
+                      const trashType = r.detection_type === 'facial' ? 'vision' :
+                        r.detection_type === 'vocal' ? 'audio' : 'upload';
+                      onDeleteOne?.(r.id, trashType);
+                    }}
                   >
                     Delete
                   </button>

@@ -29,6 +29,7 @@ type ImagePreviewProps = {
   sourceUrl?: string | null;
   boxes: Box[];
   activeId: number | null;
+  emotion?: string | null;
 };
 
 export const ImagePreview: React.FC<ImagePreviewProps> = ({

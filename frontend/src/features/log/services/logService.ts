@@ -1,4 +1,3 @@
-// src/features/log/services/logService.ts
 import { LogEntry, LogLevel } from "../utils/logTypes";
 
 const SOURCES = ["vision", "audio", "text", "max-fusion", "system"] as const;
@@ -47,7 +46,6 @@ function genMockLog(count = 20): LogEntry[] {
 let MOCK_DB: LogEntry[] = genMockLog(30);
 
 export async function fetchLogs(): Promise<LogEntry[]> {
-  // giả lập delay
   await new Promise((res) => setTimeout(res, 200));
   return [...MOCK_DB];
 }
@@ -62,7 +60,44 @@ export async function appendLog(entry: LogEntry): Promise<void> {
   MOCK_DB = [entry, ...MOCK_DB];
 }
 
-export async function exportLogs(): Promise<Blob> {
+/**
+ * Xuất file log dưới dạng JSON hoặc CSV
+ * @param format 'json' | 'csv'
+ */
+export async function exportLogs(format: "json" | "csv" = "json"): Promise<Blob> {
+  if (format === "csv") {
+    // chuyển mảng LogEntry thành CSV text
+    const headers = [
+      "timestamp",
+      "source",
+      "action",
+      "level",
+      "message",
+      "user",
+      "relatedId",
+      "duration_ms",
+      "model",
+      "file",
+    ];
+
+    const rows = MOCK_DB.map((log) => [
+      log.timestamp,
+      log.source,
+      log.action,
+      log.level,
+      `"${log.message.replace(/"/g, '""')}"`, // escape quote
+      log.user,
+      log.relatedId ?? "",
+      log.meta?.duration_ms ?? "",
+      log.meta?.model ?? "",
+      log.meta?.file ?? "",
+    ]);
+
+    const csv = [headers.join(","), ...rows.map((r) => r.join(","))].join("\n");
+    return new Blob([csv], { type: "text/csv" });
+  }
+
+  // mặc định xuất JSON
   const json = JSON.stringify(MOCK_DB, null, 2);
   return new Blob([json], { type: "application/json" });
 }

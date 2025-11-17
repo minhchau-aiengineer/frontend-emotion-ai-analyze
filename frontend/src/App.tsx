@@ -397,24 +397,24 @@ import FooterPape from "./components/FooterPape";
 function useActiveSidebarKey() {
   const { pathname } = useLocation();
   switch (pathname) {
-    case "/":
+    case "/home":
       return "home";
+    case "/upload":
+      return "upload";
     case "/dashboard":
       return "dashboard";
-    case "/new-analysis":
-      return "new-analysis";
     case "/audio-sentiment":
       return "audio-sentiment";
     case "/vision-sentiment":
       return "vision-sentiment";    
     case "/max-fusion":
       return "max-fusion";    
-    case "/review-queue":
-      return "review-queue";
     case "/log":
       return "log";
     case "/trash":
       return "trash";  
+    case "/users":
+      return "users";
     default:
       return "home";
   }
@@ -433,14 +433,14 @@ function Layout() {
         onChange={(key) => {
           switch (key) {
             case "home":
-              navigate("/");
+              navigate("/home");
+              break;
+            case "upload":
+              navigate("/upload");
               break;
             case "dashboard":
               navigate("/dashboard");
-              break;
-            case "new-analysis":
-              navigate("/new-analysis");
-              break;    
+              break;   
             case "audio-sentiment":
               navigate("/audio-sentiment");
               break;
@@ -450,16 +450,16 @@ function Layout() {
             case "max-fusion":
               navigate("/max-fusion");
               break;
-            case "review-queue":
-              navigate("/review-queue");
-              break;
             case "log":
               navigate("/log");
               break;
             case "trash":
               navigate("/trash");
               break;
-            
+            case "users":
+              navigate("/users");
+              break;
+
             default:
               console.log("Chưa gán route:", key);
           }

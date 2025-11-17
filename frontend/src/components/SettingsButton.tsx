@@ -21,6 +21,28 @@ import {
 const cx = (...a: Array<string | false | null | undefined>) =>
   a.filter(Boolean).join(" ");
 
+const THEME_STORAGE_KEY = "ea-theme";
+
+/** hàm áp dụng theme ra DOM */
+function applyAppearanceToDocument(mode: "System" | "Light" | "Dark") {
+  const root = document.documentElement;
+
+  const apply = (isDark: boolean) => {
+    if (isDark) root.classList.add("dark");
+    else root.classList.remove("dark");
+  };
+
+  if (mode === "Light") {
+    apply(false);
+  } else if (mode === "Dark") {
+    apply(true);
+  } else {
+    // System
+    const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+    apply(prefersDark);
+  }
+}
+
 /** Toggle UI */
 const Switch = ({
   checked,
@@ -93,11 +115,38 @@ export default function SettingsButton({
 }) {
   const [open, setOpen] = useState(false);
 
-  // fake settings state (giữ nguyên logic & UI từ code của bạn)
-  const [appearance, setAppearance] = useState("System");
+  // 🆕 lấy theme từ localStorage nếu có
+  const [appearance, setAppearance] = useState<"System" | "Light" | "Dark">(
+    () => {
+      if (typeof window === "undefined") return "System";
+      const saved = window.localStorage.getItem(THEME_STORAGE_KEY);
+      if (saved === "Light" || saved === "Dark" || saved === "System") {
+        return saved;
+      }
+      return "System";
+    }
+  );
   const [language, setLanguage] = useState("Tiếng Việt");
   const [accent, setAccent] = useState("Default");
   const [showExtra, setShowExtra] = useState(true);
+
+  // 🆕 mỗi khi appearance đổi thì apply ra DOM + lưu
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+    applyAppearanceToDocument(appearance);
+    window.localStorage.setItem(THEME_STORAGE_KEY, appearance);
+  }, [appearance]);
+
+  // 🆕 nếu đang là System: nghe theo OS thay đổi
+  useEffect(() => {
+    if (appearance !== "System") return;
+    const mm = window.matchMedia("(prefers-color-scheme: dark)");
+    const handler = (e: MediaQueryListEvent) => {
+      applyAppearanceToDocument(e.matches ? "Dark" : "Light");
+    };
+    mm.addEventListener("change", handler);
+    return () => mm.removeEventListener("change", handler);
+  }, [appearance]);
 
   const leftNav = useMemo(
     () => [
@@ -128,7 +177,7 @@ export default function SettingsButton({
     };
   }, [open]);
 
-  /* ===== Right content (giữ nguyên UI từ code bạn) ===== */
+  /* ===== Right content ===== */
   const Content = () => {
     if (tab === "general")
       return (
@@ -137,7 +186,7 @@ export default function SettingsButton({
             <Select
               value={appearance}
               items={["System", "Light", "Dark"]}
-              onChange={setAppearance}
+              onChange={(v) => setAppearance(v as "System" | "Light" | "Dark")}
             />
             <span className="text-slate-400">Giao diện</span>
           </Section>
@@ -326,7 +375,9 @@ export default function SettingsButton({
         <div className="pt-2">
           <button
             className={btn.primary}
-            onClick={() => onChange?.({ appearance, language, accent, showExtra })}
+            onClick={() =>
+              onChange?.({ appearance, language, accent, showExtra })
+            }
           >
             Save changes
           </button>
@@ -353,7 +404,6 @@ export default function SettingsButton({
     <>
       {Trigger}
 
-      {/* ============== PORTAL: panel giữa màn hình ============== */}
       {open &&
         createPortal(
           <div className="fixed inset-0 z-[100]">
@@ -376,7 +426,6 @@ export default function SettingsButton({
                     <Settings className="w-5 h-5 text-sky-400" />
                     Settings
                   </div>
-                  {/* Close: icon X */}
                   <button
                     className={btn.icon}
                     onClick={() => setOpen(false)}
@@ -425,7 +474,6 @@ export default function SettingsButton({
               </div>
             </div>
 
-            {/* animations */}
             <style>{`
               .h-4.5{height:1.125rem}.w-4.5{width:1.125rem}
               @keyframes fadein{from{opacity:0}to{opacity:1}}

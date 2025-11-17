@@ -326,7 +326,7 @@ export default function MaxFusionPage() {
                     <td className="px-3 py-2 text-slate-300">{r.time}</td>
                     <td className="px-3 py-2">
                       <button
-                        className="text-rose-400 hover:text-rose-300"
+                        className="text-rose-400 hover:text-rose-300 pr-10 mr-7"
                         onClick={(e) => {
                           e.stopPropagation();
                           setRows((old) => old.filter((x) => x.id !== r.id));

@@ -10,6 +10,7 @@ export function useLogs() {
   const [level, setLevel] = useState<LogLevel | "all">("all");
   const [selected, setSelected] = useState<LogEntry | null>(null);
 
+  // load mock log
   useEffect(() => {
     let mounted = true;
     setLoading(true);
@@ -17,21 +18,26 @@ export function useLogs() {
       .then((data) => {
         if (mounted) setLogs(data);
       })
-      .finally(() => mounted && setLoading(false));
+      .finally(() => {
+        if (mounted) setLoading(false);
+      });
+
     return () => {
       mounted = false;
     };
   }, []);
 
+  // filter theo search + level
   const filtered = useMemo(() => {
+    const q = search.toLowerCase();
     return logs.filter((log) => {
       const matchLevel = level === "all" ? true : log.level === level;
       const matchSearch =
-        !search ||
-        log.message.toLowerCase().includes(search.toLowerCase()) ||
-        log.source.toLowerCase().includes(search.toLowerCase()) ||
-        log.action.toLowerCase().includes(search.toLowerCase()) ||
-        log.user?.toLowerCase().includes(search.toLowerCase());
+        !q ||
+        log.message.toLowerCase().includes(q) ||
+        log.source.toLowerCase().includes(q) ||
+        log.action.toLowerCase().includes(q) ||
+        log.user?.toLowerCase().includes(q);
       return matchLevel && matchSearch;
     });
   }, [logs, search, level]);
@@ -42,13 +48,16 @@ export function useLogs() {
     setSelected(null);
   };
 
-  const handleExport = async () => {
-    const blob = await exportLogs();
+  // 👇 thêm tham số format
+  const handleExport = async (format: "json" | "csv" = "json") => {
+    const blob = await exportLogs(format);
     const url = URL.createObjectURL(blob);
+
     const a = document.createElement("a");
     a.href = url;
-    a.download = `logs-${new Date().toISOString()}.json`;
+    a.download = `logs-${new Date().toISOString()}.${format}`;
     a.click();
+
     URL.revokeObjectURL(url);
   };
 
@@ -63,6 +72,6 @@ export function useLogs() {
     selected,
     setSelected,
     handleClear,
-    handleExport,
+    handleExport, // giờ nhận "json" | "csv"
   };
 }
